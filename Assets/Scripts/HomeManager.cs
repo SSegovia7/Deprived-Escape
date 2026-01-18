@@ -21,4 +21,10 @@ public class HomeManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneToLoad);
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Quitting game");
+    }
 }
