@@ -19,13 +19,14 @@ public class MinigameManager : MonoBehaviour
     public GameObject topCurtain;
     public GameObject bottomCurtain;
 
-    public float curtainSpeed;
+    private float curtainSpeed;
 
     private bool curtainsMoving;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        curtainSpeed = topCurtain.transform.localScale.y / (numSecondsForCurtainsToStartMoving + 1); // + 1 because 0 is included as a second for dramatic effect
         curtainsMoving = false;
         StartCoroutine(nameof(HideAndShowInfo));
     }
