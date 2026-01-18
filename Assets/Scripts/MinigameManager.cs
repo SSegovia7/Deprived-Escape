@@ -19,6 +19,8 @@ public class MinigameManager : MonoBehaviour
     public GameObject topCurtain;
     public GameObject bottomCurtain;
 
+    public List<GameObject> roomLayouts;
+
     private float curtainSpeed;
 
     private bool curtainsMoving;
@@ -28,6 +30,7 @@ public class MinigameManager : MonoBehaviour
     {
         curtainSpeed = topCurtain.transform.localScale.y / (numSecondsForCurtainsToStartMoving + 1); // + 1 because 0 is included as a second for dramatic effect
         curtainsMoving = false;
+        DisplayRandomLayout();
         StartCoroutine(nameof(HideAndShowInfo));
     }
 
@@ -38,8 +41,12 @@ public class MinigameManager : MonoBehaviour
         {
             topCurtain.transform.position += new Vector3(0, -curtainSpeed * Time.deltaTime, 0);
             bottomCurtain.transform.position += new Vector3(0, curtainSpeed * Time.deltaTime, 0);
-            Debug.Log("moving");
         }
+    }
+
+    void DisplayRandomLayout()
+    {
+        roomLayouts[Random.Range(0, roomLayouts.Count)].SetActive(true);
     }
 
     void LoseGame()

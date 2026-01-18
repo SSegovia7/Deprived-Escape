@@ -57,9 +57,6 @@ public class PlayerMovement : MonoBehaviour
 
         this_list.Sort((int a, int b) => Random.Range(-1, 1));
 
-        foreach (int elem in this_list)
-            Debug.Log("elem" + elem.ToString());
-
         return this_list.GetRange(0, numWanted);
 
     }
