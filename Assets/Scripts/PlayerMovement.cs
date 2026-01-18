@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public float speed;
+    public TextMeshProUGUI keyInfoText;
+
     private PlayerInput input;
     private InputAction moveAction;
 
@@ -29,11 +33,86 @@ public class PlayerMovement : MonoBehaviour
         moveAction = input.actions["Move"];
     }
 
+    char[] GetAllLetterChars()
+    {
+        char[] result = new char[26];
+
+        int index = 0;
+        for (char c = 'a'; c <= 'z'; c++)
+        {
+            result[index] = c;
+            index++;
+        }
+
+        return result;
+    }
+
+    List<int> GetRandomNonrepeatingNumbers(int maxExc, int numWanted)
+    {
+        List<int> this_list = new();
+
+        for (int i = 0; i < maxExc; i++) {
+            this_list.Add(i);
+        }
+
+        this_list.Sort((int a, int b) => Random.Range(-1, 1));
+
+        foreach (int elem in this_list)
+            Debug.Log("elem" + elem.ToString());
+
+        return this_list.GetRange(0, numWanted);
+
+    }
+
+    string RandomlyChangeWASD()
+    {
+        char[] letterChars = GetAllLetterChars();
+
+        foreach (char c in letterChars)
+        {
+            Debug.Log(c.ToString());
+        }
+
+        Debug.Log(letterChars.Length);
+        List<int> randomKeyIndices = GetRandomNonrepeatingNumbers(letterChars.Length, 4);
+
+        string curInfoText = "";
+
+        foreach (int index in randomKeyIndices)
+        {
+            Debug.Log("index: " + index.ToString());
+        }
+
+        string[] dirs = { "LEFT", "RIGHT", "UP", "DOWN" };
+
+        for (int i = 0; i < randomKeyIndices.Count; i++)
+        {
+            char inpChar = letterChars[randomKeyIndices[i]];
+            string bindStr = "<Keyboard>/" + inpChar.ToString();
+            moveAction.ApplyBindingOverride(i + 1, bindStr);
+            Debug.Log("start " + i.ToString());
+            Debug.Log("key index: " + randomKeyIndices[i].ToString());
+            Debug.Log("bind string: " + bindStr);
+            curInfoText += $"{inpChar} = {dirs[i]}\n";
+            //Debug.Log("incoming info");
+            //Debug.Log($"{inpChar} = {nameof(RandomlyChangeWASD)}\n");
+        }
+
+        return curInfoText;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         //moveAction.ChangeBinding()
         lastFacingDir = Direction.UP;
+
+        string infoText = RandomlyChangeWASD();
+        keyInfoText.text = infoText;
+
+        Debug.Log(infoText);
+        
+        //moveAction.ApplyBindingOverride(1, "<Keyboard>/space");
     }
 
     // Update is called once per frame
