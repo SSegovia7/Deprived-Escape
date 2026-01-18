@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 5784233018542975353}
   - component: {fileID: 1511071993270506436}
   - component: {fileID: 5264003502053017006}
-  - component: {fileID: 6611220007475518568}
   - component: {fileID: 1143168517993793749}
   m_Layer: 0
   m_Name: Player
@@ -235,22 +234,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &6611220007475518568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3815077327127758763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03e10ed4190b67444ba4c45bfafdf4f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerFunctionality
-  keyTag: Key
-  doorTag: Door
-  gotKey: 0
-  nextSceneName: Transition
 --- !u!95 &1143168517993793749
 Animator:
   serializedVersion: 7

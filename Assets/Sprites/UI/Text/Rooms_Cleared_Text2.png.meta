@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 9ed387be664f79f45b62281d397f4e77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7599337034727495453
+    second: Rooms_Cleared_Text2_0
+  - first:
+      213: -2901694039963657001
+    second: Rooms_Cleared_Text2_1
+  - first:
+      213: -4990535560311488631
+    second: Rooms_Cleared_Text2_2
+  - first:
+      213: -6768129844042849736
+    second: Rooms_Cleared_Text2_3
+  - first:
+      213: 592876586076443224
+    second: Rooms_Cleared_Text2_4
+  - first:
+      213: 2025595935859055216
+    second: Rooms_Cleared_Text2_5
+  - first:
+      213: -3993672229191633120
+    second: Rooms_Cleared_Text2_6
+  - first:
+      213: 4202588883684259186
+    second: Rooms_Cleared_Text2_7
+  - first:
+      213: -2691648063725138778
+    second: Rooms_Cleared_Text2_8
+  - first:
+      213: 8666688554444973036
+    second: Rooms_Cleared_Text2_9
+  - first:
+      213: 4334619846112904702
+    second: Rooms_Cleared_Text2_10
+  - first:
+      213: 6327508857883075416
+    second: Rooms_Cleared_Text2_11
+  - first:
+      213: -1504436736302435203
+    second: Rooms_Cleared_Text2_12
+  - first:
+      213: 7499676447003882302
+    second: Rooms_Cleared_Text2_13
+  - first:
+      213: 2713333626658633747
+    second: Rooms_Cleared_Text2_14
+  - first:
+      213: -4584093831807683965
+    second: Rooms_Cleared_Text2_15
+  - first:
+      213: -8886857379957556255
+    second: Rooms_Cleared_Text2_16
+  - first:
+      213: 637683733312361333
+    second: Rooms_Cleared_Text2_17
+  - first:
+      213: 5436811686039160145
+    second: Rooms_Cleared_Text2_18
+  - first:
+      213: 5558715340269732515
+    second: Rooms_Cleared_Text2_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_0
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 638
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8e89cda3bb98690800000000000000
+      internalID: -7599337034727495453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_1
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 637
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc191df4ac1bb7d0800000000000000
+      internalID: -2901694039963657001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_2
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 638
+        width: 81
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98fbda0595e0ebab0800000000000000
+      internalID: -4990535560311488631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_3
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 638
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8322b1414c5c212a0800000000000000
+      internalID: -6768129844042849736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_4
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 637
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8529bb42d125a3800800000000000000
+      internalID: 592876586076443224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_5
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 638
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a9a5785cc5c1c10800000000000000
+      internalID: 2025595935859055216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_6
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 638
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027b0b55440a398c0800000000000000
+      internalID: -3993672229191633120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_7
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 638
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275710dc258925a30800000000000000
+      internalID: 4202588883684259186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_8
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 637
+        width: 75
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac8b45d85855aad0800000000000000
+      internalID: -2691648063725138778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_9
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 637
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3e2aa7253464870800000000000000
+      internalID: 8666688554444973036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_10
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 638
+        width: 80
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef50be3c8c9a72c30800000000000000
+      internalID: 4334619846112904702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_11
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 638
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853224b18c3dfc750800000000000000
+      internalID: 6327508857883075416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_12
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 638
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7435a952ca2f1be0800000000000000
+      internalID: -1504436736302435203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_13
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 637
+        width: 76
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33b70a5ef3341860800000000000000
+      internalID: 7499676447003882302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_14
+      rect:
+        serializedVersion: 2
+        x: 2437
+        y: 637
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3183c1ebe82b7a520800000000000000
+      internalID: 2713333626658633747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_15
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 637
+        width: 81
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3823b0292f60260c0800000000000000
+      internalID: -4584093831807683965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_16
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 640
+        width: 84
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb321a2c4a8ba480800000000000000
+      internalID: -8886857379957556255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_17
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 639
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573d0231af189d800800000000000000
+      internalID: 637683733312361333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_18
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 673
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1558e094c6f637b40800000000000000
+      internalID: 5436811686039160145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rooms_Cleared_Text2_19
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 643
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2ca409626842d40800000000000000
+      internalID: 5558715340269732515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rooms_Cleared_Text2_0: -7599337034727495453
+      Rooms_Cleared_Text2_1: -2901694039963657001
+      Rooms_Cleared_Text2_10: 4334619846112904702
+      Rooms_Cleared_Text2_11: 6327508857883075416
+      Rooms_Cleared_Text2_12: -1504436736302435203
+      Rooms_Cleared_Text2_13: 7499676447003882302
+      Rooms_Cleared_Text2_14: 2713333626658633747
+      Rooms_Cleared_Text2_15: -4584093831807683965
+      Rooms_Cleared_Text2_16: -8886857379957556255
+      Rooms_Cleared_Text2_17: 637683733312361333
+      Rooms_Cleared_Text2_18: 5436811686039160145
+      Rooms_Cleared_Text2_19: 5558715340269732515
+      Rooms_Cleared_Text2_2: -4990535560311488631
+      Rooms_Cleared_Text2_3: -6768129844042849736
+      Rooms_Cleared_Text2_4: 592876586076443224
+      Rooms_Cleared_Text2_5: 2025595935859055216
+      Rooms_Cleared_Text2_6: -3993672229191633120
+      Rooms_Cleared_Text2_7: 4202588883684259186
+      Rooms_Cleared_Text2_8: -2691648063725138778
+      Rooms_Cleared_Text2_9: 8666688554444973036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
