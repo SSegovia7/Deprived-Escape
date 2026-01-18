@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: d4beae11e657f5e42a99a07e9659386a
+guid: cc52b0a3c57589f458baa4a3f10386a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6992151086340444293
-    second: Prison_Wall_Transition_0
+      213: -9145320415250275911
+    second: Start Cloud2_0
+  - first:
+      213: -1014215431554293751
+    second: Start Cloud2_1
+  - first:
+      213: -3947419862533797426
+    second: Start Cloud2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Prison_Wall_Transition_0
+      name: Start Cloud2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 3200
-        height: 1800
+        x: 1271
+        y: 845
+        width: 92
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5801f25fd5c190160800000000000000
-      internalID: 6992151086340444293
+      spriteID: 9b121eb498b451180800000000000000
+      internalID: -9145320415250275911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start Cloud2_1
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900ac744078cce1f0800000000000000
+      internalID: -1014215431554293751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start Cloud2_2
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 458
+        width: 847
+        height: 601
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec90a52ac82f739c0800000000000000
+      internalID: -3947419862533797426
       vertices: []
       indices: 
       edges: []
@@ -135,7 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Prison_Wall_Transition_0: 6992151086340444293
+      Start Cloud2_0: -9145320415250275911
+      Start Cloud2_1: -1014215431554293751
+      Start Cloud2_2: -3947419862533797426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
