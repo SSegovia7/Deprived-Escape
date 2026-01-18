@@ -80,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
             string bindStr = "<Keyboard>/" + inpChar.ToString();
             moveAction.ApplyBindingOverride(i + 1, bindStr);
 
-            curInfoText += $"{inpChar} = {dirs[i]}\n";
+            curInfoText += $"{inpChar.ToString().ToUpper()} = {dirs[i]}\n";
         }
 
         return curInfoText;
