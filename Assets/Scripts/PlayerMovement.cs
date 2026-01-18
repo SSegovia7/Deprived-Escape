@@ -68,20 +68,9 @@ public class PlayerMovement : MonoBehaviour
     {
         char[] letterChars = GetAllLetterChars();
 
-        foreach (char c in letterChars)
-        {
-            Debug.Log(c.ToString());
-        }
-
-        Debug.Log(letterChars.Length);
         List<int> randomKeyIndices = GetRandomNonrepeatingNumbers(letterChars.Length, 4);
 
         string curInfoText = "";
-
-        foreach (int index in randomKeyIndices)
-        {
-            Debug.Log("index: " + index.ToString());
-        }
 
         string[] dirs = { "LEFT", "RIGHT", "UP", "DOWN" };
 
@@ -90,12 +79,8 @@ public class PlayerMovement : MonoBehaviour
             char inpChar = letterChars[randomKeyIndices[i]];
             string bindStr = "<Keyboard>/" + inpChar.ToString();
             moveAction.ApplyBindingOverride(i + 1, bindStr);
-            Debug.Log("start " + i.ToString());
-            Debug.Log("key index: " + randomKeyIndices[i].ToString());
-            Debug.Log("bind string: " + bindStr);
+
             curInfoText += $"{inpChar} = {dirs[i]}\n";
-            //Debug.Log("incoming info");
-            //Debug.Log($"{inpChar} = {nameof(RandomlyChangeWASD)}\n");
         }
 
         return curInfoText;
@@ -104,15 +89,10 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //moveAction.ChangeBinding()
         lastFacingDir = Direction.UP;
 
         string infoText = RandomlyChangeWASD();
         keyInfoText.text = infoText;
-
-        Debug.Log(infoText);
-        
-        //moveAction.ApplyBindingOverride(1, "<Keyboard>/space");
     }
 
     // Update is called once per frame
