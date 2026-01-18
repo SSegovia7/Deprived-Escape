@@ -269,8 +269,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4801fd9c96a026b4a985171c83ba0534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TransitionManager
-  cameraSpeed: 3
-  transitionTime: 6
+  cameraSpeed: 4
+  transitionTime: 4
   zoomSpeed: 0.4
   nextSceneToLoadName: Game
 --- !u!1 &1541854845
