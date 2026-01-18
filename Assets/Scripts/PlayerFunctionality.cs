@@ -24,17 +24,17 @@ public class PlayerFunctionality : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
 
-        Debug.Log("trigger");
         if (other.gameObject.CompareTag(keyTag))
         {
             Destroy(other.gameObject);
             gotKey = true;
-            Debug.Log("got key");
         }
-        else if (other.gameObject.CompareTag(doorTag) && gotKey)
+        else if (other.gameObject.CompareTag(doorTag))
         {
-            SceneManager.LoadScene(nextSceneName);
-            Debug.Log("got door");
+            if (gotKey) {
+                SceneManager.LoadScene(nextSceneName);
+                GameObject.FindWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore();
+            }
         }
     }
 }
