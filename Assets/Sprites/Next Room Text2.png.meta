@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 32bf31a681ea76442a037d9457a9de06
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8847812820627777248
+    second: Next Room Text2_0
+  - first:
+      213: 7425024842570268885
+    second: Next Room Text2_1
+  - first:
+      213: 2124941011694370071
+    second: Next Room Text2_2
+  - first:
+      213: -7282326073364594786
+    second: Next Room Text2_3
+  - first:
+      213: -7245373868799509336
+    second: Next Room Text2_4
+  - first:
+      213: 770554649775943715
+    second: Next Room Text2_5
+  - first:
+      213: -6747187486144271365
+    second: Next Room Text2_6
+  - first:
+      213: 5785239671065853012
+    second: Next Room Text2_7
+  - first:
+      213: -51860012647571626
+    second: Next Room Text2_8
+  - first:
+      213: 3560439668861744657
+    second: Next Room Text2_9
+  - first:
+      213: 6993080019482862425
+    second: Next Room Text2_10
+  - first:
+      213: 142776979651818454
+    second: Next Room Text2_11
+  - first:
+      213: 1670808447271976470
+    second: Next Room Text2_12
+  - first:
+      213: -7896138648312895434
+    second: Next Room Text2_13
+  - first:
+      213: -2053075811376892770
+    second: Next Room Text2_14
+  - first:
+      213: 2041317950617235727
+    second: Next Room Text2_15
+  - first:
+      213: -6541806877400797897
+    second: Next Room Text2_16
+  - first:
+      213: 1732002627650722676
+    second: Next Room Text2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Next Room Text2_0
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 353
+        width: 84
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029955b0e11463580800000000000000
+      internalID: -8847812820627777248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_1
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 359
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d00add31ccfa0760800000000000000
+      internalID: 7425024842570268885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_2
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 365
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71db3ba779e4d7d10800000000000000
+      internalID: 2124941011694370071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_3
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 374
+        width: 101
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fb98a050bffea90800000000000000
+      internalID: -7282326073364594786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 379
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acbe4d9ad2437b90800000000000000
+      internalID: -7245373868799509336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_5
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 389
+        width: 93
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320bbe31f5f81ba00800000000000000
+      internalID: 770554649775943715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_6
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 394
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbe86fbabc2d52a0800000000000000
+      internalID: -6747187486144271365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_7
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 398
+        width: 95
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45cb06e44dc494050800000000000000
+      internalID: 5785239671065853012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_8
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 406
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f1810e791c74ff0800000000000000
+      internalID: -51860012647571626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_9
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 413
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116b6bac309396130800000000000000
+      internalID: 3560439668861744657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_10
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 420
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953682f0a396c0160800000000000000
+      internalID: 6993080019482862425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_11
+      rect:
+        serializedVersion: 2
+        x: 2196
+        y: 425
+        width: 97
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3ff3218ee3bf100800000000000000
+      internalID: 142776979651818454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_12
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 432
+        width: 101
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e3e533e67ef2710800000000000000
+      internalID: 1670808447271976470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_13
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 446
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638a3122cb74b6290800000000000000
+      internalID: -7896138648312895434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_14
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 448
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94feed5d620283e0800000000000000
+      internalID: -2053075811376892770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_15
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 451
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f013b285cd7345c10800000000000000
+      internalID: 2041317950617235727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 344
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d61531e45d635a0800000000000000
+      internalID: -6541806877400797897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Next Room Text2_17
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 348
+        width: 97
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b1a2b963f490810800000000000000
+      internalID: 1732002627650722676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Next Room Text2_0: -8847812820627777248
+      Next Room Text2_1: 7425024842570268885
+      Next Room Text2_10: 6993080019482862425
+      Next Room Text2_11: 142776979651818454
+      Next Room Text2_12: 1670808447271976470
+      Next Room Text2_13: -7896138648312895434
+      Next Room Text2_14: -2053075811376892770
+      Next Room Text2_15: 2041317950617235727
+      Next Room Text2_16: -6541806877400797897
+      Next Room Text2_17: 1732002627650722676
+      Next Room Text2_2: 2124941011694370071
+      Next Room Text2_3: -7282326073364594786
+      Next Room Text2_4: -7245373868799509336
+      Next Room Text2_5: 770554649775943715
+      Next Room Text2_6: -6747187486144271365
+      Next Room Text2_7: 5785239671065853012
+      Next Room Text2_8: -51860012647571626
+      Next Room Text2_9: 3560439668861744657
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
