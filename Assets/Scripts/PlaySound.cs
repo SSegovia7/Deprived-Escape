@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class PlayButtonSound : MonoBehaviour
+public class PlaySound : MonoBehaviour
 {
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,7 +14,7 @@ public class PlayButtonSound : MonoBehaviour
         
     }
 
-    public void PlaySound()
+    void Play()
     {
         GameObject.FindGameObjectWithTag("GameManager").GetComponent<SoundManager>().PlayButtonSound();
     }
