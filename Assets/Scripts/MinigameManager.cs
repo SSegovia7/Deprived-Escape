@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class MinigameManager : MonoBehaviour
 {
-    public TextMeshProUGUI mainInfoText;
     public TextMeshProUGUI controlInfoText;
     public TextMeshProUGUI timerText;
 
@@ -51,7 +50,6 @@ public class MinigameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(numSecondsToDisplayStartInfo);
 
-        mainInfoText.gameObject.SetActive(false);
         controlInfoText.gameObject.SetActive(false);
         timerText.gameObject.SetActive(true);
 
