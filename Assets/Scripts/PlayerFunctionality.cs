@@ -23,17 +23,25 @@ public class PlayerFunctionality : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        GameObject gameManager = GameObject.FindWithTag("GameManager");
+        SoundManager soundManager = gameManager.GetComponent<SoundManager>();
 
         if (other.gameObject.CompareTag(keyTag))
         {
             Destroy(other.gameObject);
             gotKey = true;
+            soundManager.PlayKeySound();
         }
         else if (other.gameObject.CompareTag(doorTag))
         {
             if (gotKey) {
+                gameManager.GetComponent<ScoreManager>().AddScore();
+                soundManager.PlayWinSound();
                 SceneManager.LoadScene(nextSceneName);
-                GameObject.FindWithTag("ScoreManager").GetComponent<ScoreManager>().AddScore();
+            }
+            else
+            {
+                soundManager.PlayWrongKeySound();
             }
         }
     }
